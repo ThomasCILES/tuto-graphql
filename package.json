@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:ThomasCILES/tuto-graphql.git",
   "author": "Thomas CILES <thomas.ciles.pro@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.11.7"
+  }
 }
