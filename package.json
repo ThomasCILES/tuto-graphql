@@ -1,0 +1,8 @@
+{
+  "name": "GraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ThomasCILES/tuto-graphql.git",
+  "author": "Thomas CILES <thomas.ciles.pro@gmail.com>",
+  "license": "MIT"
+}
