@@ -6,6 +6,8 @@
   "author": "Thomas CILES <thomas.ciles.pro@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
     "graphql": "^0.11.7"
   },
   "devDependencies": {
@@ -14,6 +16,6 @@
   "scripts": {
     "build": "encore production",
     "test": "node ./build/app.js",
-    "buildAndtest": "npm run build && npm run test"
+    "buildAndTest": "npm run build && npm run test"
   }
 }

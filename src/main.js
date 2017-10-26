@@ -1,3 +1,8 @@
-import {graphql, buildSchema} from 'graphql';
+import {graphql} from 'graphql';
+import {resolvers, schema} from './schema';
 
-console.log("Hello World !");
+graphql(schema, '{ hello }', resolvers)
+    .then((response) => {
+        console.log(response);
+    })
+;
