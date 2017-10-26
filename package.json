@@ -10,5 +10,10 @@
   },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.16.0"
+  },
+  "scripts": {
+    "build": "encore production",
+    "test": "node ./build/app.js",
+    "buildAndtest": "npm run build && npm run test"
   }
 }
